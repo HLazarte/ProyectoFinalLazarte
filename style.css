@@ -1,0 +1,59 @@
+/* ESTILOS INDEX */
+
+
+body {
+    background-color: #052470;
+}
+
+
+header {
+    color: ghostwhite;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.3rem;
+}
+
+h1{ color: whitesmoke;}
+
+
+footer {
+    margin: 0.6rem;
+    color: blanchedalmond;
+    text-align: center;
+}
+
+
+
+
+/* ESTILO SOLICITUD */
+
+
+.imgDolares {
+    border-radius: 15px;
+    margin: 1rem;
+}
+
+.boton10 {
+    background-color: rgb(49, 49, 71);
+    color: whitesmoke;
+    border-radius: 10px;
+    border: none;
+}
+
+.colorFondo {
+    background-color: cadetblue;
+    padding: 2rem;
+}
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
