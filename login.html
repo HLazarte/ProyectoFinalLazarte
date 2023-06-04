@@ -13,8 +13,8 @@
     <header>
         <nav>
             <ul>
-                <li>Home</li>
-                <li>loguin</li>
+                <li > <a href="home.html">home</a></li>
+            
             </ul>
         </nav>
     </header>
@@ -26,6 +26,32 @@
             <img  class="imgDolares" src="img/dolares.jpg" alt="imagen de dolares">
         </div>
     </main>
+    <div class="container-login">
+        <div class="moneda">
+            <select  id="moneda-uno">
+                <option value="ARS" selected>ARS</option>
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+            </select>
+            <input type="number" id="cantidad-uno" placeholder="0" value="1">
+        </div>
+        <div class="taza-cambio">
+            <button id="taza">
+                CAMBIO
+            </button>
+
+            <div class="cambio" id="cambio"></div>
+        </div>
+        <div class="moneda">
+            <select  id="moneda-dos">
+                <option value="USD" selected>USD</option>
+                <option value="ARS">ARS</option>
+                <option value="EUR">EUR</option>
+            </select>
+            <input type="number" id="cantidad-dos" placeholder="0" value="1">
+        </div>
+
+    </div>
 
     
 
