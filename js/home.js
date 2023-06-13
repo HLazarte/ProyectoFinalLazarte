@@ -68,6 +68,11 @@ const botonlogin = document.getElementById("botonlogin");
 
 const usuarioautorizado = "admin";
 const passwordautorizado = "1234";
+const usuarioautorizadodos = "samu";
+const passwordautorizadodos = "majestuoso";
+const usuarioautorizadotres = "agus";
+const passwordautorizadotres = "pasameunbuzito";
+
 
 botonlogin.addEventListener ("click", () => {
     swal.fire ({
@@ -82,8 +87,13 @@ botonlogin.addEventListener ("click", () => {
             let usuario = document.getElementById("usuario").value;
             let password = document.getElementById("password").value;
         if (usuario === usuarioautorizado && password === passwordautorizado){
+            window.location.href = "usuarios.html";
+        }  if (usuario === usuarioautorizadodos && password === passwordautorizadodos){
             window.location.href = "login.html";
-        }
+        } if (usuario === usuarioautorizadotres && password === passwordautorizadotres){
+            window.location.href = "login.html";
+        } else( 
+            swal.fire("Los datos son incorrectos")) ;
             
         }
     })
